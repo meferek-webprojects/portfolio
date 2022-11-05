@@ -1,26 +1,33 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Poppins-ExtraBold";
+    src: url("../public/fonts/Poppins/Poppins-ExtraBold.ttf");
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+@font-face {
+    font-family: "Poppins-Bold";
+    src: url("../public/fonts/Poppins/Poppins-Bold.ttf");
 }
 
-* {
-  box-sizing: border-box;
+@font-face {
+    font-family: "Poppins";
+    src: url("../public/fonts/Poppins/Poppins-Regular.ttf");
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+@font-face {
+    font-family: "Poppins-Medium";
+    src: url("../public/fonts/Poppins/Poppins-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Poppins-Thin";
+    src: url("../public/fonts/Poppins/Poppins-Thin.ttf");
+}
+
+body,
+html {
+    scroll-behavior: smooth;
 }
