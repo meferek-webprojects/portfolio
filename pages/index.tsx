@@ -1,9 +1,9 @@
 import Head from "next/head";
 import Image from "next/image";
-import Background from "./components/Background";
-import { SmContainer } from "./components/Containers";
-import Hero from "./components/Hero";
-import Title from "./components/Title";
+import Background from "../components/Background";
+import { SmContainer } from "../components/Containers";
+import Hero from "../components/Hero";
+import Title from "../components/Title";
 
 const index = () => {
     return (
