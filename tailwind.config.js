@@ -40,16 +40,16 @@ module.exports = {
       keyframes: {
         moveRight: {
           '0%, 100%': { transform: 'rotate(0deg) translateX(50px) rotate(0deg) scale(1)' },
-          '50%': { transform: 'rotate(360deg) translateX(50px) rotate(-360deg) scale(1.2)' }
+          '50%': { transform: 'rotate(360deg) translateX(50px) rotate(-360deg) scale(1.3)' }
         },
         moveLeft: {
           '0%, 100%': { transform: 'rotate(0deg) translateX(-50px) rotate(0deg) scale(1)' },
-          '50%': { transform: 'rotate(360deg) translateX(-50px) rotate(-360deg) scale(1.2)' }
+          '50%': { transform: 'rotate(360deg) translateX(-50px) rotate(-360deg) scale(1.3)' }
         }
       },
       animation: {
-        moveRight: 'moveRight 25s linear infinite',
-        moveLeft: 'moveLeft 25s linear infinite'
+        moveRight: 'moveRight 10s linear infinite',
+        moveLeft: 'moveLeft 10s linear infinite'
       }
     },
   },

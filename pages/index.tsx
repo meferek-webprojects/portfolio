@@ -5,10 +5,21 @@ import Background from "../components/Background";
 import { SmContainer } from "../components/Containers";
 import Hero from "../components/Hero";
 import Title from "../components/Title";
+import designProjects from "../components/database/desginProjects.json";
+import Modal from "../components/Modal";
+import MyDesignProjects from "../components/MyDesignProjects";
+import MyWebProjects from "../components/MyWebProjects";
 
-const index = () => {
+const Index = () => {
+
+    const [openModal, setOpenModal] = useState<any>(null);
+    console.log(openModal)
+
     return (
         <>
+
+            <Modal openModal={ openModal } setOpenModal={ setOpenModal } />
+
             <Head>
                 <title>Mateusz Krysiak Site</title>
                 <meta name="viewport" content="initial-scale=1.0, width=device-width, height=device-height" />
@@ -19,26 +30,12 @@ const index = () => {
 
             <Hero />
 
-            <SmContainer id="myprojects">
-                <Title className="pt-24 w-full" main="MY PROJECTS" secondary="as a webdeveloper"/>
-                <div className="grid w-full grid-cols-1 xl:grid-cols-2 gap-4 my-auto">
-                    <a href="https://mkwmstudios.pl/" rel="noreferrer" target="_blank">
-                        <div className="relative aspect-[16/8.2] group hover:cursor-pointer rounded-md overflow-hidden mx-auto xl:mx-0 max-w-lg xl:max-w-none">
-                            <Image className="object-cover transition-all duration-[5000ms] object-top hover:object-bottom mx-auto" fill src="/images/webProjects/MKWM/2.jpeg" alt=""/>
-                        </div>
-                        <p className="text-white font-poppinsmedium text-xl mt-6 xl:mt-12 text-center">MKWM Studios</p>
-                    </a>
-                    <a href="https://www.jfcpolska.pl/" rel="noreferrer" target="_blank">
-                        <div className="relative aspect-[16/8.2] group hover:cursor-pointer rounded-md overflow-hidden mx-auto xl:mx-0 max-w-lg xl:max-w-none">
-                            <Image className="object-cover transition-all duration-[5000ms] object-top hover:object-bottom" fill src="/images/webProjects/JFC/2.jpeg" alt=""/>
-                        </div>
-                        <p className="text-white font-poppinsmedium text-xl mt-6 xl:mt-12 text-center">JFC Polska</p>
-                    </a>
-                </div>
-            </SmContainer>
+            <MyWebProjects />
+
+            <MyDesignProjects openModal={ openModal } setOpenModal={ setOpenModal }/>
 
         </>
     );
 }
 
-export default index;
+export default Index;

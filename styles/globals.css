@@ -31,3 +31,36 @@ body,
 html {
     scroll-behavior: smooth;
 }
+
+/* Globalny styl dla paska przewijania */
+.scrollbar *::-webkit-scrollbar {
+    width: 8px; /* Szerokość paska */
+    height: 8px; /* Wysokość paska */
+    background-color: #d4d4d418; /* Kolor tła paska - szary 300 */
+    border-radius: 5px; /* Zaokrąglone rogi */
+}
+
+/* Globalny styl dla uchwytu paska przewijania */
+.scrollbar *::-webkit-scrollbar-thumb {
+    background-color: #00a8e8; /* Kolor uchwytu - szary 600 */
+    border-radius: 5px; /* Zaokrąglone rogi */
+}
+
+/* Globalny styl dla przycisków nawigacyjnych (opcjonalnie) */
+.scrollbar *::-webkit-scrollbar-button {
+    width: 0; /* Szerokość przycisku */
+    height: 0; /* Wysokość przycisku */
+    background-color: #a3a3a300; /* Kolor tła przycisku - szary 400 */
+    border: none; /* Usuń domyślną ramkę */
+    cursor: pointer; /* Zmień kursor na wskaźnik */
+}
+
+/* Globalny styl dla przycisku "wstecz" (opcjonalnie) */
+.scrollbar *::-webkit-scrollbar-button:left {
+    left: 10px; /* Umieść po lewej stronie */
+}
+
+/* Globalny styl dla przycisku "wprzód" (opcjonalnie) */
+.scrollbar *::-webkit-scrollbar-button:right {
+    right: 10px; /* Umieść po prawej stronie */
+}

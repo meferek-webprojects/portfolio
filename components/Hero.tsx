@@ -12,7 +12,7 @@ const Hero = () => {
                 <Image alt="" src="/images/me/KWADRAT.jpg" layout="fill" objectFit="cover"/>
             </div>
             <div className="my-16 md:my-auto ml-0 md:ml-16 xl:ml-32">
-                <Title className="text-center md:text-left" main="Mateusz Krysiak" secondary="webdeveloper"/>
+                <Title className="text-center md:text-left" main="Mateusz Krysiak" secondary="webdeveloper / graphic desginer"/>
                 <div className="mt-10 flex gap-5 justify-center md:justify-start">
                     <div className="bg-white h-12 w-12 2xl:h-14 2xl:w-14 text-center rounded-full flex group hover:bg-lightblue hover:cursor-pointer transition-all duration-300 easy-in-out"><a href="https://pl.linkedin.com/in/mateusz-krysiak-86b5b1240?trk=people-guest_people_search-card" rel="noreferrer" target="_blank" className="my-auto mx-auto text-xl 2xl:text-2xl text-darkblue group-hover:text-white group-hover:scale-[1.1] transition-all duration-300 ease-in-out"><FaLinkedinIn /></a></div>
                     <div className="bg-white h-12 w-12 2xl:h-14 2xl:w-14 text-center rounded-full flex group hover:bg-lightblue hover:cursor-pointer transition-all duration-300 easy-in-out"><a href="https://github.com/Meferek" rel="noreferrer" target="_blank" className="my-auto mx-auto text-xl 2xl:text-2xl text-darkblue group-hover:text-white group-hover:scale-[1.1] transition-all duration-300 ease-in-out"><FaGithub /></a></div>
