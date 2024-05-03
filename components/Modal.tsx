@@ -29,7 +29,7 @@ const Modal = ({openModal, setOpenModal}: any) => {
                     <div className="basis-2/3 relative rounded-xl ">
                         <Image className="object-contain" priority fill src={ openModal?.url } alt="" />
                     </div>
-                    <div className="flex flex-col gap-4 basis-1/3 justify-center pr-12">
+                    <div className="flex flex-col gap-4 lg:basis-1/3 justify-center lg:pr-12">
                         <h3 className="font-poppinsbold text-white text-3xl">{ openModal?.title }</h3>
                         <p className="font-popinsthin text-white text-lg text-justify">{ openModal?.description }</p>
                     </div>

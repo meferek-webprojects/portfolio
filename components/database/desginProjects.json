@@ -2,103 +2,109 @@
     {
         "id": 1,
         "url": "/images/designProjects/1.png",
-        "title": "Project 1",
-        "description": "This is a description of project 1"
+        "title": "Panda2",
+        "description": "This project originated from a joint endeavor during my time at technical school, where my instructors and I sought to establish a dedicated platform for technical students. This platform aims to serve as a comprehensive resource center, providing students with all the necessary materials to support their academic journey."
     },
     {
         "id": 2,
         "url": "/images/designProjects/2.jpg",
-        "title": "Project 1",
-        "description": "This is a description of project 1"
+        "title": "Erazmus+",
+        "description": "During my time at technical school, I had the opportunity to participate in an Erasmus+ program exchange. To encourage other students to join the project, I created a visual representation, which I subsequently utilized as social media content."
     },
     {
         "id": 3,
-        "url": "/images/designProjects/3.png",
-        "title": "Project 1",
-        "description": "This is a description of project 1"
+        "url": "/images/designProjects/3.jpg",
+        "title": "Business cards for ForRest",
+        "description": "I also had the pleasure of designing business cards for the company."
     },
     {
         "id": 4,
         "url": "/images/designProjects/4.png",
-        "title": "Project 1",
-        "description": "This is a description of project 1"
+        "title": "School Assistant",
+        "description": "A glimpse into our groundbreaking project designed to streamline the daily workflow for students and educators."
     },
     {
         "id": 5,
         "url": "/images/designProjects/5.png",
-        "title": "Project 1",
-        "description": "This is a description of project 1"
+        "title": "SnkrsDeals",
+        "description": "A close friend approached me seeking a logo design for his shoe restoration business. I presented him with several options, and he ultimately selected this one."
     },
     {
         "id": 6,
         "url": "/images/designProjects/6.png",
-        "title": "Project 1",
-        "description": "This is a description of project 1"
+        "title": "Miękus Show",
+        "description": "Eye-catching key visual promoting Miękus Show - a talk show featuring diverse guests."
     },
     {
         "id": 7,
         "url": "/images/designProjects/7.png",
-        "title": "Project 1",
-        "description": "This is a description of project 1"
+        "title": "Home Sewage Treatment Plant or Septic Tank?",
+        "description": "Graphic design project for JFC Polska - marketing graphic"
     },
     {
         "id": 8,
         "url": "/images/designProjects/8.jpg",
-        "title": "Project 1",
-        "description": "This is a description of project 1"
+        "title": "MKWM",
+        "description": "My friend and I founded a company that provides photography and videography services. The graphic showcases our logo and behind-the-scenes photos from a photoshoot, offering a glimpse into our creative process."
     },
     {
         "id": 9,
         "url": "/images/designProjects/9.jpg",
-        "title": "Project 1",
-        "description": "This is a description of project 1"
+        "title": "School President",
+        "description": "In support of my younger brother's campaign for school president, I designed a series of eye-catching election posters that played a significant role in his victory. Here's one of them."
     },
     {
         "id": 10,
         "url": "/images/designProjects/10.jpg",
-        "title": "Project 1",
-        "description": "This is a description of project 1"
+        "title": "KPR Markovia ROKIS",
+        "description": "Poster promoting the girls' handball club KPR Markovia ROKIS."
     },
     {
         "id": 11,
         "url": "/images/designProjects/11.png",
-        "title": "Project 1",
-        "description": "This is a description of project 1"
+        "title": "Marketing graphic for JFC Polska",
+        "description": "Another marketing graphic for JFC Polska."
     },
     {
         "id": 12,
         "url": "/images/designProjects/12.png",
-        "title": "Project 1",
-        "description": "This is a description of project 1"
+        "title": "Marketing graphic for JFC Polska",
+        "description": "Another marketing graphic for JFC Polska."
     },
     {
         "id": 13,
         "url": "/images/designProjects/13.png",
-        "title": "Project 1",
-        "description": "This is a description of project 1"
+        "title": "Marketing graphic for JFC Polska",
+        "description": "Another marketing graphic for JFC Polska."
     },
     {
         "id": 14,
         "url": "/images/designProjects/14.png",
-        "title": "Project 1",
-        "description": "This is a description of project 1"
+        "title": "Brochures for JFC Polska",
+        "description": "During my tenure at JFC Polska, I had the privilege of spearheading a diverse range of graphic design projects, including the creation of brochures. Here's an example of a brochure I designed for the company."
     },
     {
         "id": 15,
         "url": "/images/designProjects/15.png",
-        "title": "Project 1",
-        "description": "This is a description of project 1"
+        "title": "Brochures for JFC Polska",
+        "description": "During my tenure at JFC Polska, I had the privilege of spearheading a diverse range of graphic design projects, including the creation of brochures. Here's an example of a brochure I designed for the company."
     },
     {
         "id": 16,
         "url": "/images/designProjects/16.png",
-        "title": "Project 1",
-        "description": "This is a description of project 1"
+        "title": "Marketing graphic for JFC Polska",
+        "description": "Another marketing graphic for JFC Polska."
     },
     {
         "id": 17,
         "url": "/images/designProjects/17.png",
-        "title": "Project 1",
-        "description": "This is a description of project 1"
+        "title": "Marketing graphic for JFC Polska",
+        "description": "Another marketing graphic for JFC Polska."
+    },
+    {
+        "id": 18,
+        "url": "/images/designProjects/18.png",
+        "title": "Website theme",
+        "description": "Simple website desgin."
     }
 ]

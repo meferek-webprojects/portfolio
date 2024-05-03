@@ -39,7 +39,8 @@ const MyWebProjects = () => {
     }, [hoverOnDesignerProjects]);
 
     return (
-        <SmContainer id="myprojects" className="scrollbar">
+
+        <SmContainer id="myprojects" className="scrollbar scrollSection">
             <Title className="pt-24 w-full" main="MY PROJECTS" secondary="as a webdeveloper"/>
             <div className="flex my-auto gap-4 overflow-x-auto w-full h-[28rem] cursor-pointer" ref={ containerRef } onMouseEnter={ () => setHoverOnDesignerProjects(true) } onMouseLeave={ () => setHoverOnDesignerProjects(false) }>
                 <a className="group w-[600px] aspect-video shrink-0" href="https://mkwmstudios.pl/" rel="noreferrer" target="_blank">
@@ -74,6 +75,7 @@ const MyWebProjects = () => {
                 </a>
             </div>
         </SmContainer>
+
     );
 }
 

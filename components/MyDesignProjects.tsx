@@ -40,7 +40,7 @@ const MyDesignProjects = ({openModal, setOpenModal}: any) => {
     }, [hoverOnDesignerProjects, openModal]);
 
     return (
-        <SmContainer id="myDesignProject" className="scrollbar" >
+        <SmContainer id="myDesignProject" className="scrollbar scrollSection">
             <Title className="pt-24 w-full" main="MY PROJECTS" secondary="as a designer"/>
             <div className="flex my-auto gap-4 overflow-x-auto w-full h-96 cursor-pointer" ref={ containerRef } onMouseEnter={ () => setHoverOnDesignerProjects(true) } onMouseLeave={ () => setHoverOnDesignerProjects(false) }>
                 { designProjects.map((project, index) => (

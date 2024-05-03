@@ -7,7 +7,7 @@ import Title from "./Title";
 
 const Hero = () => {
     return (
-        <div className="h-screen flex flex-col md:flex-row w-full justify-center px-10">
+        <div className="h-screen flex flex-col md:flex-row w-full justify-center px-10 scrollSection">
             <div className="mx-auto md:mx-0 w-[300px] 2xl:w-[500px] mt-10 md:my-auto aspect-square relative rounded-full overflow-hidden">
                 <Image alt="" src="/images/me/KWADRAT.jpg" fill className="object-cover" />
             </div>
