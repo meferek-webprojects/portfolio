@@ -9,7 +9,7 @@ const Hero = () => {
     return (
         <div className="h-screen flex flex-col md:flex-row w-full justify-center px-10">
             <div className="mx-auto md:mx-0 w-[300px] 2xl:w-[500px] mt-10 md:my-auto aspect-square relative rounded-full overflow-hidden">
-                <Image alt="" src="/images/me/KWADRAT.jpg" layout="fill" objectFit="cover"/>
+                <Image alt="" src="/images/me/KWADRAT.jpg" fill className="object-cover" />
             </div>
             <div className="my-16 md:my-auto ml-0 md:ml-16 xl:ml-32">
                 <Title className="text-center md:text-left" main="Mateusz Krysiak" secondary="webdeveloper / graphic desginer"/>
