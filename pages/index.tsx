@@ -13,7 +13,6 @@ import MyWebProjects from "../components/MyWebProjects";
 const Index = () => {
 
     const [openModal, setOpenModal] = useState<any>(null);
-    console.log(openModal)
 
     return (
         <>
