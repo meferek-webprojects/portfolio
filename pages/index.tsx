@@ -21,7 +21,7 @@ const Index = () => {
             <Modal openModal={ openModal } setOpenModal={ setOpenModal } />
 
             <Head>
-                <title>Mateusz Krysiak Site</title>
+                <title>Mateusz Krysiak - site</title>
                 <meta name="viewport" content="initial-scale=1.0, width=device-width, height=device-height" />
                 <meta name="author" content="Mateusz Krysiak"/>
             </Head>
