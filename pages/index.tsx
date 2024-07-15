@@ -13,50 +13,6 @@ import MyWebProjects from "../components/MyWebProjects";
 const Index = () => {
 
     const [openModal, setOpenModal] = useState<any>(null);
-    const [scrolling, setScrolling] = useState(false);
-
-    useEffect(() => {
-        let animationFrameId: any;
-    
-        const handleScroll = (event: any) => {
-            if (!scrolling && event.deltaY > 0) {
-                setScrolling(true);
-                animationFrameId = requestAnimationFrame(() => {
-                    setTimeout(() => {
-                        setScrolling(false);
-                    }, 1000); // Ustawienie czasu opóźnienia w milisekundach
-                });
-            }
-        };
-    
-        window.addEventListener("wheel", handleScroll);
-    
-        return () => {
-            window.removeEventListener("wheel", handleScroll);
-            cancelAnimationFrame(animationFrameId);
-        };
-    }, [scrolling]);
-
-    useEffect(() => {
-        if (scrolling) {
-            const sections = document.querySelectorAll('.scrollSection');
-            let closestSection = sections[0] as HTMLElement;
-            let distance = Math.abs(window.innerHeight / 2 - closestSection.getBoundingClientRect().top);
-
-            sections.forEach(section => {
-                const sectionDistance = Math.abs(window.innerHeight / 2 - section.getBoundingClientRect().top);
-                if (sectionDistance < distance) {
-                    closestSection = section as HTMLElement;
-                    distance = sectionDistance;
-                }
-            });
-
-            window.scrollTo({
-                top: closestSection.offsetTop - (window.innerHeight / 2) + (closestSection.offsetHeight / 2),
-                behavior: 'smooth'
-            });
-        }
-    }, [scrolling]);
 
     return (
         <>
